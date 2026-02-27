@@ -1,0 +1,153 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOibkvRN1G8EqQ7x5x1T5PJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/filgueiraa26/aula-de-P.A/blob/main/Aula%203\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Aula de programação e algoritmos**"
+      ],
+      "metadata": {
+        "id": "1N6Yy-wNqh3_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "npGYf-nHpR0Y",
+        "outputId": "fe3ae579-8e57-44ba-fadf-fc36e1a348b6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello world\n"
+          ]
+        }
+      ],
+      "source": [
+        "print (\"hello world\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 5\n",
+        "b = 6\n",
+        "t = a + b"
+      ],
+      "metadata": {
+        "id": "wwiEqQGoqzpC"
+      },
+      "execution_count": 2,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (t)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oM2m84HEw1NA",
+        "outputId": "e0e2eecb-271a-4a37-a15a-09b014df32e6"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "11\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Tipos Numéricos\n",
+        "idade = 67 # int\n",
+        "altura = 1.75 # float\n",
+        "numero_complexo = 2 + 3j # complex\n",
+        "\n",
+        "# Tipo Texto\n",
+        "nome = \"Igao\"  # str\n",
+        "\n",
+        "# Tipo Booleano\n",
+        "esta_chovendo = False # bool\n",
+        "\n",
+        "# Tipo Tuple (mutável)\n",
+        "numero = [1, 2, 3, 4, 5] # list\n",
+        "\n",
+        "# Tipo Tupla (imutável)\n",
+        "coordenadas = (10,20) # tuple\n",
+        "\n",
+        "# Tipo Conjunto (valores únicos)\n",
+        "vogais = {'a', 'e', 'i', 'o', 'u'} # set\n",
+        "\n",
+        "# Tipo Dicionário (chave-valor)\n",
+        "pessoa = {\"nome\": \"Carlos\", \"idade\": 30} #dict"
+      ],
+      "metadata": {
+        "id": "n2WJCRXuyGvX"
+      },
+      "execution_count": 8,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (f\"nome: (Igor), idade: (15), altura (1.67)\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "i0RUnqjA37Od",
+        "outputId": "ca7cab4e-6381-4e26-ecf7-77d18018f571"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nome: (Igor), idade: (15), altura (1.67)\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
